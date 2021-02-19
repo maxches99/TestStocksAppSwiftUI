@@ -28,7 +28,7 @@ struct StockView: View {
 	}
 	
 	var body: some View {
-		ScrollView{
+		ScrollView(showsIndicators: false){
 			Text("Эти ебаные акции")
 				.font(.system(size: 28, weight: .bold))
 				.padding(.top, 16)
